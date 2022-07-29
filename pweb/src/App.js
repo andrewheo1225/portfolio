@@ -1,13 +1,14 @@
 
-import './App.css';
+
+import Sidebar from './component/sidebar';
+import Maincontent from './component/maincontent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      hello 
-      </header>
-    </div>
+    <>
+      <Sidebar/>
+      <Maincontent/>
+    </>  
   );
 }
 
