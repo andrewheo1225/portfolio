@@ -14,6 +14,7 @@ function sidebar() {
           className="img-fluid img-profile rounded-circle mb-4 ms-4"
           alt="error"
         />
+        <a href="about">About</a>
         <a href="education">Education</a>
         <a href="workexperience">Work Experience</a>
         <a href="leadership">Leadership</a>
@@ -28,6 +29,7 @@ function sidebar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
+              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="about">About</Nav.Link>
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="education">Education</Nav.Link>
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="workexperience">Work Experience</Nav.Link>
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="leadership">Leadership</Nav.Link>
