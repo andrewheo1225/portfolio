@@ -97,12 +97,52 @@ section.resume-section .resume-section-content {
 .dateexperience-rightside{
   /*risky*/
   position: relative;
-  bottom: 100px;
+  bottom: 140px;
   /*risky*/
   text-align: right;
   float:right;
   color:#F06C14;
 }
+
+/* Leadership Section*/
+.leadership-section{
+
+}
+.leadership-info{
+  float:left;
+}
+
+.leadership-rightside{
+  /*risky*/
+  position: relative;
+  bottom: 200px;
+  /*risky*/
+  text-align: right;
+  float:right;
+  color:#F06C14;
+}
+
+/*Skils*/
+.social-icon{
+  margin-bottom: 5px;
+}
+
+.skill-icon{
+  padding-top:3px;
+}
+
+/*Awards*/
+.award-title{
+  margin-bottom:25px;
+}
+
+
+/*Projects*/
+.two-links{
+  display: flex;
+ 
+}
+
 
 
 
@@ -119,6 +159,15 @@ section.resume-section .resume-section-content {
   .dateexperience-rightside{
     position: relative;
     bottom: 2px;
+    margin-bottom:20px;
+    clear:both;
+    text-align: left;
+    float:left;
+    color:#F06C14;
+  }
+  .leadership-rightside{
+    position: relative;
+    bottom: 0px;
     margin-bottom:20px;
     clear:both;
     text-align: left;

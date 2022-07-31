@@ -18,7 +18,7 @@ function sidebar() {
         <a href="education">Education</a>
         <a href="experience">Experience</a>
         <a href="leadership">Leadership</a>
-        <a href="skillsinterests">Skills & Interests</a>
+        <a href="skillsawards">Skills & Awards</a>
         <a href="projects">Projects</a>
        
       </div>
@@ -34,7 +34,7 @@ function sidebar() {
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="education">Education</Nav.Link>
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="experience">Experience</Nav.Link>
               <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="leadership">Leadership</Nav.Link>
-              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="skillsinterests">Skills & Interests</Nav.Link>
+              <Nav.Link className = "text-dark ps-2 square border-bottom border-dark" href="skillsawards">Skills & Awards</Nav.Link>
               <Nav.Link className = "text-dark ps-2" href="projects">Projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
