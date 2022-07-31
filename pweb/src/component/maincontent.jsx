@@ -1,4 +1,4 @@
-import React from "react";
+import React,{Router,Route} from "react";
 import "../style/maincontent.css";
 import {
   faReact,
@@ -21,7 +21,7 @@ function maincontent() {
     <div class="content">
       {/* About Section of Main Content */}
 
-      <section class="resume-section" id="about">
+      <section class="resume-section" id="AboutID">
         <div className="resume-section-content">
           <h1 className="mb-1">
             Andrew
@@ -102,7 +102,7 @@ function maincontent() {
       <hr class="horizontal-line" />
 
       {/* Education Section of Main Content */}
-      <section class="resume-section" id="about">
+      <section class="resume-section" id="EducationID">
         <div className="resume-section-content">
           <h1 className="mb-5">Education</h1>
           <div className="education-section">
@@ -132,8 +132,8 @@ function maincontent() {
       </section>
 
       <hr class="horizontal-line" />
-      {/* WORK EXPERIENCE SECTION */}
-      <section class="resume-section" id="about">
+      {/*  EXPERIENCE SECTION */}
+      <section class="resume-section" id="ExperienceID">
         <div className="resume-section-content">
           <h1 className="mb-5">Experience</h1>
 
@@ -194,7 +194,7 @@ function maincontent() {
 
       <hr class="horizontal-line" />
       {/* LEADERSHIP SECTION */}
-      <section class="resume-section" id="about">
+      <section class="resume-section" id="LeadershipID">
         <div className="resume-section-content">
           <h1>Leadership</h1>
           <div className="leadership-section">
@@ -221,7 +221,7 @@ function maincontent() {
 
       <hr class="horizontal-line" />
       {/* SKILLS SECTION */}
-      <section class="resume-section" id="skills">
+      <section class="resume-section" id="SkillsAwardsID">
         <div class="resume-section-content">
           <h1 class="mb-5">Skills</h1>
 
@@ -311,7 +311,7 @@ function maincontent() {
         </div>
       </section>
       {/* Awards */}
-      <section class="resume-section" id="about">
+      <section class="resume-section" >
         <div className="resume-section-content">
           <h1 className="award-title">Awards</h1>
           <ul class="fa-ul mb-0">
@@ -333,7 +333,7 @@ function maincontent() {
 
       <hr class="horizontal-line" />
       {/* Projects SECTION */}
-      <section class="resume-section" id="about">
+      <section class="resume-section" id="ProjectsID">
         <div className="resume-section-content">
           <h1 className="mb-5">Projects</h1>
 
